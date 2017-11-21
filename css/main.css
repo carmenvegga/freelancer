@@ -113,3 +113,46 @@ padding-top: 5px;
 padding-bottom: 5px;
 text-align: center;
 }
+
+.about{
+background: #18bc9c;
+color: #fff;
+padding-bottom: 50px;
+}
+.sub-about{
+  padding-top: 50px;
+}
+.texto-about > p{
+  text-align: center;
+  display: inline-block;
+  width: 40%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.boton{
+    text-align: center;
+    margin: 30px 30px;
+    border: solid 2px #fff;
+    width: 25%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.boton > a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+.datos{
+  width: auto;
+}
+.Datos-formato{
+  text-align: center;
+  margin: 5px;
+}
+.contact{
+  padding: 50px 0;
+  
+}
