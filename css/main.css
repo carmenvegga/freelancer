@@ -22,6 +22,7 @@ html, body {
   margin-top: 15px;
 }
 
+/* metí los textos del menú en <a>, porque en algún momento se requerirá que sean links a otras ventanas, y para quitar la línea azul propia de un link he usado text-decoration:none */
 .titulo-link {
   text-decoration: none;
   color: #fff;
@@ -37,6 +38,7 @@ html, body {
   margin-top: 15px;
 }
 
+/* list-style:none, es usado para quitar las viñetas que se ponen por default a una lista unordered */
 .menu-item {
   display: inline-block;
   list-style: none;
@@ -58,6 +60,8 @@ html, body {
   color: #fff;
 }
 
+/*Usando display:flex, se define el elemento como contenedor flexible y todos sus "hijos" como elementos flexibles.
+El valor flex hace que el contenedor flexible sea un bloque dentro del elemento "padre" al que pertenezca.*/
 .avatar {
   width: auto;
   display: flex;
@@ -101,6 +105,7 @@ html, body {
   padding: 50px 0;
 }
 
+/* usando el 30% para cada columna, intento que las tres columnas se adapten al 100% de la clase "container" que en realidad es un 80% de la pantalla general. */
 .images-portfolio {
   display: inline-block;
   width: 30%;
@@ -126,7 +131,7 @@ html, body {
   padding-top: 50px;
 }
 
-.texto-about>p {
+.texto-about > p {
   display: inline-block;
   width: 40%;
   margin: 30px auto;
@@ -145,13 +150,14 @@ html, body {
   padding: 5px;
 }
 
-.boton>a {
+.boton > a {
   text-decoration: none;
   color: #fff;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
 }
 
+/* tomando como cien por cineto, el ochenta del container */
 .datos {
   width: 100%;
 }
@@ -212,15 +218,26 @@ html, body {
   text-align: center;
 }
 
-.mini-container>p {
+.mini-container > p {
   color: #fff;
   text-align: center;
 }
 
-.iconos>.fa {
+.circulos-iconos>.fa {
   color: #fff;
   display: inline-block;
-  margin: 0 5px;
+  text-align: center;
+  margin: 7px;
+}
+
+/* fue necesario hacer nuevos divs para cada <i>, que no modificara lo establecido en div iconos */
+
+.circulos-iconos {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 3px;
 }
 
 .iconos {
