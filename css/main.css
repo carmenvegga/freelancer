@@ -77,9 +77,9 @@ html, body {
 }
 
 .linea-estrella {
-      margin: 25px 30%;
-      border: none;
-      border: solid 3px;
+  margin: 25px 30%;
+  border: none;
+  border: solid 3px;
 }
 
 .subtitulo-central {
@@ -97,62 +97,133 @@ html, body {
   margin: 30px auto 10px;
 }
 
-.portfolio{
+.portfolio {
   padding: 50px 0;
 }
-.images-portfolio{
+
+.images-portfolio {
   display: inline-block;
   width: 30%;
   margin: auto;
   padding: 5px;
 }
+
 .fila {
-display: block;
-width: 100%;
-padding-top: 5px;
-padding-bottom: 5px;
-text-align: center;
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
-.about{
-background: #18bc9c;
-color: #fff;
-padding-bottom: 50px;
+.about {
+  background: #18bc9c;
+  color: #fff;
+  padding-bottom: 50px;
 }
-.sub-about{
+
+.sub-about {
   padding-top: 50px;
 }
-.texto-about > p{
-  text-align: center;
+
+.texto-about>p {
   display: inline-block;
   width: 40%;
-  margin: auto;
+  margin: 30px auto;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   padding: 10px 20px;
 }
-.boton{
-    text-align: center;
-    margin: 30px 30px;
-    border: solid 2px #fff;
-    width: 25%;
-    border-radius: 5px;
-    padding: 5px;
+
+.boton {
+  display: block;
+  text-align: center;
+  margin: 30px auto;
+  border: solid 2px #fff;
+  width: 25%;
+  border-radius: 5px;
+  padding: 5px;
 }
-.boton > a{
+
+.boton>a {
   text-decoration: none;
   color: #fff;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
 }
-.datos{
-  width: auto;
+
+.datos {
+  width: 100%;
 }
-.Datos-formato{
-  text-align: center;
+
+.Datos-formato {
+  text-align: left;
   margin: 5px;
+  font-family: 'Lato', sans-serif;
+  color: #888e99;
+  border-bottom: 1px solid #eee;
 }
-.contact{
+
+.Datos-formato>input {
+  border: 0;
+}
+
+.contact {
   padding: 50px 0;
-  
+}
+
+.boton-send {
+  text-align: center;
+  margin: 30px 30px;
+  border: solid 2px #18bc9c;
+  background: #18bc9c;
+  width: 10%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.boton-send>a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.datos-finales {
+  background: #2c3e50;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+}
+
+.mini-container {
+  display: inline-block;
+  margin: 20px auto;
+  width: 30%;
+}
+
+.titulo-datos-finales {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+}
+
+.mini-container>p {
+  color: #fff;
+  text-align: center;
+}
+
+.iconos>.fa {
+  color: #fff;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.iconos {
+  display: flex;
+  justify-content: center;
 }
