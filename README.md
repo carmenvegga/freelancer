@@ -1,47 +1,29 @@
 # Freelancer
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
-
 ***
-
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
 
 ## Flujo de trabajo
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+1. Realicé el fork del proyecto. Una vez que revisé las especificaciones y revisar los documentos disponibles, como imágenes, textos, etc.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+2. Después busqué los elementos externos a utilizar, fuentes, iconos, y sus respectivos links, para utilizarlos en el html.
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
+3. Para comenzar la maquetación hice un análisis de la imagen a replicar.
+Definir las secciones a utilizar, hacer pequeños bocetos de cada seccion y contenedores.
+Esto para facilitar las modificaciones por partes y evitar que se hagan modificaciones a otros elementos.
+
+4. Con un boceto general de secciones, cajas y contenedores, comence a utilizar <section> <div> y hacer anidaciones para comenzar los nombramientos de clases.
+5. Comenzar las especificaciones y cambios en css para replicar la estructura y el diseño.
+
+
 
 ## Objetivo
 
-El reto consiste en replicar el sitio de **Freelancer**, este será el resultado
-a lograr:
+Replicar el sitio de **Freelancer**
 
 ![Freelancer Website](docs/fullpage.png)
 
 ## Consideraciones
-
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
-
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto.
-
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
 
 * Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
 
@@ -65,9 +47,6 @@ a lograr:
 * Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
   para que te des una idea de como debe quedar.
 
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
 
 ## A tener en cuenta
 
